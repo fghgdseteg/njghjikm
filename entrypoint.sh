@@ -2,7 +2,7 @@
 
 # 设置各变量
 WSPATH=${WSPATH:-'argo'}  # WS 路径前缀。(注意:伪装路径不需要 / 符号开始,为避免不必要的麻烦,请不要使用特殊符号.)
-UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
+UUID=${UUID:-'52da0720-f717-4616-88e7-6c54397b1e33'}
 WEB_USERNAME=${WEB_USERNAME:-'admin'}
 WEB_PASSWORD=${WEB_PASSWORD:-'password'}
 
@@ -87,7 +87,7 @@ generate_config() {
                 "network":"ws",
                 "security":"none",
                 "wsSettings":{
-                    "path":"/${WSPATH}-vless"
+                    "path":"/52da0720-f717-4616-88e7-6c54397b1e33-vless"
                 }
             },
             "sniffing":{
@@ -115,7 +115,7 @@ generate_config() {
             "streamSettings":{
                 "network":"ws",
                 "wsSettings":{
-                    "path":"/${WSPATH}-vmess"
+                    "path":"/52da0720-f717-4616-88e7-6c54397b1e33-vmess"
                 }
             },
             "sniffing":{
@@ -143,7 +143,7 @@ generate_config() {
                 "network":"ws",
                 "security":"none",
                 "wsSettings":{
-                    "path":"/${WSPATH}-trojan"
+                    "path":"/52da0720-f717-4616-88e7-6c54397b1e33-trojan"
                 }
             },
             "sniffing":{
@@ -172,7 +172,7 @@ generate_config() {
             "streamSettings":{
                 "network":"ws",
                 "wsSettings":{
-                    "path":"/${WSPATH}-shadowsocks"
+                    "path":"/52da0720-f717-4616-88e7-6c54397b1e33-shadowsocks"
                 }
             },
             "sniffing":{
